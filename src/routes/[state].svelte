@@ -11,4 +11,15 @@
   export let state;
 </script>
 
-<h1>{state}</h1>
+<style>
+
+</style>
+
+<svelte:head>
+  <title>Covid-19 on {state}</title>
+</svelte:head>
+<div class="container">
+  <div class="row">
+    <h1 class="col text-center">Covid-19 on {state}</h1>
+  </div>
+</div>
